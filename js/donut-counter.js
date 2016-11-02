@@ -7,3 +7,25 @@
 //write a conditional to check if there are enough donuts
 
   //alert the user with a message telling them the numbers of donuts and guests, and if there are enough donuts for each guest.
+var guests = prompt("how many guests")
+
+var doughnut = prompt("how many doughnuts")
+
+
+// function doughnutCounter(guests, doughnuts) {
+
+//   if doughnuts >= guests
+//     re
+
+// }
+
+var diff =  parseInt(doughnut) - parseInt(guests)
+
+
+if (diff >= 0) {
+    alert("there are doughnuts");
+} else {
+  alert("somethigns off");
+}
+
+
